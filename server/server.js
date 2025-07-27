@@ -16,7 +16,7 @@ await connectDB();
 app.use(
   cors({
     origin: [
-      "https://my-blog-piyush.vercel.app/",
+      "https://my-blog-piyush.vercel.app",
       "http://localhost:5173"
     ],
     credentials: true,
